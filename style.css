@@ -27,6 +27,7 @@ ul{
     justify-content: space-around;
     margin-top: 40px;
     font-size: 20px;
+    margin-right: 50px;
     
 }
 ul li {
@@ -44,10 +45,15 @@ ul li a:hover{
     border-radius: 5px;
 }
 .x0{
-    background-color: blue;
+    /* background-color: blue; */
     height: 20px;
+    width: 10px;
     border-radius: 5px;
     color: aliceblue;
+}
+.x0 img{
+    height: 30px;
+    width: 30px;
 }
 .main0{
     background-color: rgb(180, 180, 226);
@@ -63,7 +69,7 @@ ul li a:hover{
 .x1 h2{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
-    color: blue;
+    color: rgb(79, 79, 190);
     line-height: 40px;
 }
 .x1 p{
@@ -87,7 +93,7 @@ ul li a:hover{
 .bot a {
     text-decoration: none;
     font-weight: 20px;
-    color: blue;
+    color: rgb(79, 79, 190);
     transition: 0.4s ;
 
 }
@@ -98,6 +104,71 @@ ul li a:hover{
     color:black;
 }
 
+.icon{
+    /* background-color: red; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    left: 170px;
+    top: -44px;
+    animation: x 2.1s infinite;
+    
+}
+ .icon img{
+    width: 40px;
+    height: 40px;
+ }
+@keyframes x {
+    0%{
+        top: 8px;
+    }
+    50%{
+        top: -44px;
+    }
+    100%{
+        top: 8px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    
+    .title {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    
+    .x0 {
+        margin-top: 20px;
+    }
+}
+
+/* Styles pour les écrans de petite taille (par exemple, smartphones) */
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 30px;
+    }
+    
+    ul {
+        font-size: 16px;
+    }
+}
 .main2{
     margin-top: 100px;
 }
@@ -109,7 +180,7 @@ ul li a:hover{
 .main2 h3 {
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: blue;
+    color: rgb(79, 79, 190);
     font-size: 30px;
 }
 
@@ -130,7 +201,7 @@ ul li a:hover{
 }
 .box{
     background-color: aliceblue;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 10px 5px 5px rgb(168, 150, 150);
     transition: .4s;
 }
@@ -232,7 +303,7 @@ margin-top: 20px;
     .main5 h1{
         text-align: center;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color: blue;
+        color: rgb(79, 79, 190);
     }
     .boxs5{
         display: flex;
@@ -305,4 +376,42 @@ margin-top: 20px;
 }
 input{
     display: inline;
+}
+
+.fins0{
+    background-color: rgba(0, 0, 0, 0.726);
+    height: 100px;
+}
+.fins{
+    width: 450px;
+    margin-left: 447px;
+    margin-top: 40px;
+   
+}
+.fin{
+    display: flex;
+    justify-content: space-around;
+}
+.foo{
+    background-color: brown;
+    height: 32px;
+}
+footer{
+    
+    margin-left:150px ;
+    margin-top: 20px;
+    color: aliceblue;
+}
+footer p{
+    line-height: 35px;
+}
+footer p a{
+   text-decoration: none;
+   color: aliceblue;
+}
+.fb{
+    margin-top: 10px;
+}
+.fb img{
+    width: 35px;
 }
