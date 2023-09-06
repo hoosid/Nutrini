@@ -205,6 +205,20 @@ ul li a:hover{
         font-size: 16px;
     }
 }
+
+.title p{
+    font-family: cursive;
+}
+.title p span{
+    color: rgb(255, 115, 0);
+}
+.x2 img{
+
+    height: 500px;
+    width: 400px;
+    position: relative;
+    top: -50px;
+}
 .main2{
     margin-top: 100px;
 }
@@ -258,6 +272,7 @@ transform: scale(1.2);
 .bottom{
     /* background-color: blueviolet; */
     height: 100px;
+    margin-top: 40px;
     
 }
 .bottom p {
@@ -349,8 +364,13 @@ margin-top: 20px;
     height: 200px;
     width: 200px;
     padding-top: 30px;
-    background-color: red;
+    /* background-color: red; */
     border-radius: 200px;
+    }
+    .top5 img{
+        height: 200px;
+        width: 200px;
+        border-radius: 200px;
     }
     .buttom5{
         background-color: black;
